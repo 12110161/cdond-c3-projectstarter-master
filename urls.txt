@@ -1,2 +1,0 @@
-[URL01] https://github.com/12110161/cdond-c3-projectstarter-master
-[URL02] http://udapeople-bbd8972.s3-website-us-east-1.amazonaws.com/#/employees
