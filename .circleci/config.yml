@@ -247,13 +247,11 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies tar
-          command: |
-            yum -y install tar
-      - run:
-          name: Install dependencies gzip
-          command: |
-            yum -y install gzip
+          name: Install gzip
+          command: sudo apt install gzip
+      - run: 
+          name: Install tar
+          command: sudo apt install tar
       - run:
           name: Install aws-cli
           command: |
